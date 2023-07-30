@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 40);
+
+}
+
+
+h2{
+    color: #49BFAA;
+    font-size: 40px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #49BFAA;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #59e4ca;
+    scale: 1.1;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+    margin-left: 30px;
+}
+
+.compte{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.logo{
+    top: -6%;
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 8%;
+    right: 46%;
+    margin-left: 100px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #181828;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 100px;
+}
+
+.contenu h3{
+    color: #49BFAA;
+}
+
+.icons{
+    width: 40px;
+}
+
+.icon{
+    width: 25px;
+}
+
+footer a:hover{
+    color: #59e4ca;
+    scale: 1.1;
+    font-weight: 700;
+}
+
+footer a, footer li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+footer .contact, footer .horaire, footer .reseaux, footer .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.liste-reseaux .social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.fb{
+    padding-right: 5px;
+}
+
+.twi{
+    padding-right: 25px;
+    
+}
+
+.liste-horaires li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: -8px;
+}
+
+.liste-reseaux li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.liste-services li{
+    margin-bottom: 20px;
+    margin-right: 30px;
+
+}
+
+.liste-horaires li{
+    margin-right: 30px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect{
+    margin-bottom: 10px;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#btn:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.title{
+    width: 100%;
+    height: 98vh;
+    margin: 50px;
+    padding-left: 40px;
+}
+
+#titre{
+    font-size: 80px;
+}
+
+#petittitre{
+    font-size: 30px;
+}
+
+#imgtitre{
+    width: 750px;
+    height: 650px;
+}
+
+/* Styles pour le popup principal */
+.popup {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    transform: translate(-35%, -45%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    border: 1px solid;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 35%;
+    transform: translate(-35%, -35%) scale(1);
+}
+
+
+
+
+
+
+
+.page0{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    width: 1300px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+
+
+#scrolldown:hover{
+    translate: 0 5px;
+}
+    
+
+
+
+.page1,.page2,.page3{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partie1{
+    margin: 40px;
+}
+
+.page1 p{
+    font-size: 16px;
+}
+
+.reponse{
+    color: #181828;
+    padding: 15px;
+    margin: 50px;
+}
+
+
+
+#imgpage3{
+    width: 600px;
+}
+
+.page4,.page5{
+    width: 100%;
+    height: 98vh;
+}
+
+
+
+video{
+    width: 80%;
+    height: 80vh;
+}
+
+.page6{
+    padding-top: 10px;
+    width: 100%;
+    height: 98vh;
+}
+
+.imgservices{
+    width: 300px;
+}
+
+h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.special{
+    border: 1px solid;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.page7{
+    width: 100%;
+    height: 850px;
+}
+
+
+
+
+/* Styles pour le second popup */
+.popupp {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    top: 560%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    z-index: 9999;
+}
+
+.open-popupp {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Styles pour le 3éme popup */
+
+
+.poopup {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    top: 560%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    z-index: 9999;
+}
+
+.open-poopup {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Styles pour le 4éme popup */
+
+
+.ppopup {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    top: 560%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    z-index: 9999;
+}
+
+.open-ppopup {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.pop h4{
+    font-size: 25px;
+    color:white;
+}
+
+.pop{
+    background-color: #181828;
+}
+
+span{
+    background-color: #49BFAA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.avis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+blockquote{
+    max-width: 600px;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #f8fffe;
+    border: 1px solid #b0d2cb;
+    border-left-width: 10px;
+    font-family: 'Gelasio', serif;
+    font-style: italic;
+}
+
+blockquote::before{
+    content: '\201c';
+    font-size: 50px;
+    margin-bottom: -40px;
+    margin-top: -200px;
+}
+
+.nom-avis{
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    font-size: 18px;
+}
+
+.nom-avis::before{
+    content: '\2014';
+}
+
+.page8{
+    display: none;
+}
+
+.partie1 p{
+    opacity: 0.9;
+}
+
+#more{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 46%;
+}
+
+

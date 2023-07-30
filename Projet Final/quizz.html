@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellbeing</title>
+    <link rel="stylesheet" href="style/stylequizz.css">
+    <link rel="icon" href="/photos/logo.png">
+    <script src="quizzjs.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <a href="blog.html">Blog</a>
+            <a href="staff.html">Notre staff</a>
+            <a href="" >Quizz de personnalite</a>
+        </div>
+
+        <div>
+            <a href="index.html"><img src="/photos/logo.png" class="logo"></a>
+            
+        </div>
+
+        <div class="compte">
+            <a href="#" onclick="openpopup()" id="connect">Se connecter</a>
+            <a href="creation.html" id="creation">Creer un compte</a>
+        </div>
+
+    </nav>
+
+    
+  <div class="popup" id="popup">
+    <form>
+        <h2 class="connect"><center>Connexion</center></h2>
+
+        <div class="formulaire"><label for="nom">Ecrire votre username:</label>
+        <input type="text" name="nom" id="name" required>
+        <br>
+        <label for="mdp">Ecrire votre mot de passe :</label>
+        <input type="password" name="mdp" required></div>
+        <br>
+        <button id="btn" type="submit" onclick="closepopup(event)">Se connecter</button>
+    </form>
+  </div>
+
+
+
+  <div class="app">
+    <h1>Simple Quizz</h1>
+    <div class="quiz">
+        <h2 id="question">Question</h2>
+        <div id="answer-buttons">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+        <button id="next-btn">Next </button>
+    </div>
+  </div>
+
+
+
+
+
+  <footer>
+    <div class="contenu">
+
+        <div class="service">
+            <h3>Nos services</h3>
+            <ul class="liste-services">
+                <li><a href="">Coaching individuel</a></li>
+                <li><a href="">Ateliers de groupe</a></li>
+                <li><a href="">Ressources en ligne</a></li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h3>Restons en contact</h3>
+            <p>+21695959538</p>
+            <p>mahdisafraoui10@gmail.com</p>
+            <p>15 rue de la lune Montréal, Canada, 2074</p>
+        </div>
+
+        <div class="horaire">
+            <h3>Nos horraires</h3>
+            <ul class="liste-horaires">
+                <li>
+                    <img src="photos/case-a-cocher.png" class="icon">
+                    <p>Lun 10h-19h</p>
+                </li>
+                <li>
+                    <img src="photos/case-a-cocher.png" class="icon">
+                     <p>Mar 10h-19h</p>
+                    </li>
+                <li> 
+                    <img src="photos/case-a-cocher.png" class="icon">
+                    <p>Mer 10h-19h</p>
+                </li>
+                <li>
+                    <img src="photos/case-a-cocher.png" class="icon">
+                    <p>Jeu 8h-16h</p>
+                </li>
+                <li>
+                    <img src="photos/case-a-cocher.png" class="icon">
+                    <p>Ven 8h-13h</p>
+                </li>
+                <li>
+                    <img src="photos/effacer.png" class="icon">
+                    <p>Sam fermé</p>
+                </li>
+                <li>
+                    <img src="photos/effacer.png" class="icon">
+                    <p> Dim fermé</p>
+                    </li>
+            </ul>
+        </div>
+
+        <div class="reseaux">
+            <h3>Nos reseaux sociaux</h3>
+            <ul class="liste-reseaux">
+                <li class="social fb">
+                    <img src="photos/facebook.png" class="icons">
+                    <a href="https://facebook.com">Facebook</a>
+                    
+                </li>
+                <li class="social">
+                    <img src="photos/instagram.png" class="icons">
+                    <a href="https://instagram.com">Instagram</a>
+                </li>
+                <li class="social twi">
+                    <img src="photos/twitter.png" class="icons">
+                    <a href="https://twitter.com">Twitter</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+
+</body>
+
+
+</html>

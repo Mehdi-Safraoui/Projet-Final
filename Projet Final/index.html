@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellbeing</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="/photos/logo.png">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <a href="blog.html">Blog</a>
+            <a href="staff.html">Notre staff</a>
+            <a href="quizz.html" >Quizz de personnalite</a>
+        </div>
+
+        <div>
+            <a href=""><img src="/photos/logo.png" class="logo"></a>
+            
+        </div>
+
+        <div class="compte">
+            <a href="#" onclick="openpopup()" id="connect">Se connecter</a>
+            <a href="creation.html" id="creation">Creer un compte</a>
+        </div>
+
+    </nav>
+
+    
+  <div class="popup" id="popup">
+    <form>
+        <h2 class="connect"><center>Connexion</center></h2>
+
+        <div class="formulaire"><label for="nom">Ecrire votre username:</label>
+        <input type="text" name="nom" id="name" required>
+        <br>
+        <label for="mdp">Ecrire votre mot de passe :</label>
+        <input type="password" name="mdp" required></div>
+        <br>
+        <button id="btn" type="submit" onclick="closepopup(event)">Se connecter</button>
+    </form>
+  </div>
+
+    <div class="title">
+       <div class="page0">
+        <div class="partie1">
+            <h1 id="titre">WELLBEING</h1>
+            <h3 id="petittitre">C'est plus facile à dire qu'à faire. Nous sommes là pour vous aider à travers la thérapie
+            </h3>
+            <p>Bienvenue chez Wellbeing Coaching - Votre destination pour un bien-être mental épanouissant ! Nous sommes dévoués à accompagner chacun vers une vie équilibrée, épanouissante et enrichissante sur le plan émotionnel.</p>
+        </div>
+
+        <div class="partie2"><img src="photos/wellbeing.png" id="imgtitre"></div>
+      </div>
+
+      <center><a href="#page1"><img src="/photos/scroll-down.png" id="scrolldown"></a></center>
+    </div>
+
+
+    <div class="page1" id="page1">
+      <div class="partie1">
+       <h2>"Prenez soin de votre esprit, cultivez votre bien-être."</h2>
+       <p>Bienvenue sur Wellbeing Coaching, votre ressource dédiée <br> au développement personnel et à la santé mentale.
+          <br>On est là pour vous accompagner madames et monsieurs.</p>
+      </div> 
+      <div><img src="/photos/terapist.png"></div>
+    </div>
+
+
+    <div class="page2">
+        <div class="partie1"><img src="/photos/coaching.png"></div>
+        <div>
+            <h2>"Qu'est-ce que le coaching en santé mentale ?"</h2>
+            <div class="reponse">
+                <p><center>Le coaching en santé mentale vise à vous accompagner dans votre parcours de bien-être émotionnel, mental et psychologique.
+                    Nos coachs professionnels sont là pour vous guider, vous soutenir et vous aider à surmonter les défis de la vie quotidienne.</center></p>
+                    <center><a href="blog.html"><button id="btn">En Savoir plus</button></a></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="page3">
+        <div class="partie1">
+            <h2>Quels sont les avantages du coaching en bien-être ?</h2>
+            <div class="reponse">
+                <ul>
+                    <li>Renforcez votre confiance en vous.</li>
+                    <li>Apprenez à gérer le stress et l'anxiété.</li>
+                    <li>Identifiez et atteignez vos objectifs personnels.</li>
+                    <li>Améliorez vos relations personnelles et professionnelles.</li>
+                    <li>Développez des stratégies pour améliorer votre estime de soi.</li>
+                </ul>
+               <center><a href="blog.html"><button id="btn">En Savoir plus</button></a></center>
+            </div>
+        </div>
+        <div><img src="/photos/avantage.png" id="imgpage3"></div>
+    </div>
+    </div>
+    <div class="page5" id="page5">
+        <center><h2>Video explication:</h2></center>
+        <center><video src="wellbeeing.mp4" controls></video></center>
+    </div>
+
+    <div class="page6">
+        <center><h2>Liste des services </h2></center>
+        <div class="services">
+            <div class=" special">
+                <a href="#" onclick="openpopupp(event)"><img src="photos/individuel.png" class="imgservices"></a>
+                <br>
+                <h4>Coaching individuel</h4> 
+            </div>
+            <div class=" special">
+                <a href="#" onclick="openpoopup(event)"><img src="photos/groupe.png" class="imgservices"></a>
+                <br>
+                <h4>Ateliers de groupe</h4> 
+            </div>
+            <div class=" special">
+                <a href="#" onclick="openppopup(event)"><img src="photos/online.png" class="imgservices"></a>
+                <br>
+                <h4>Ressources en ligne</h4> 
+            </div>
+        </div>
+    </div>
+
+    <div class="popupp pop" id="popupp">
+        <center><h4>Coaching individuel</h4></center>
+        <span><p>Des séances personnalisées pour répondre à vos besoins spécifiques.</p>
+        <p>Exemples d'activités à faire en coaching individuel:</p>
+        <ol>
+            <li>Évaluation et Objectifs Personnalisés</li>
+            <li>Gestion du Stress et de l'Anxiété</li>
+            <li>Renforcement de la Confiance en Soi</li>
+            <li>Équilibre Travail-Vie Personnelle</li>
+            <li>Amélioration des Relations Interpersonnelles</li>
+            <li>Gestion des Émotions et de la Régulation Affective</li>
+        </ol>
+        <button onclick="closepopupp()" id="btn">Ok</button></span>
+    </div>
+
+    <div class="poopup pop" id="poopup">
+        <center><h4>Ateliers de groupe</h4></center>
+        <span><p> Rejoignez des sessions collectives pour partager et apprendre ensemble.</p>
+        <p>Exemples d'activités à faire en groupe:</p>
+        <ol>
+            <li>Ateliers de Gestion du Stress</li>
+            <li>Ateliers de Développement de la Confiance en Soi</li>
+            <li>Ateliers de Communication Émotionnelle</li>
+            <li>Ateliers de Pleine Conscience et Méditation</li>
+            <li>Ateliers de Gestion des Émotions</li>
+            <li>Ateliers de Développement de la Positivité</li>
+        </ol>
+        <button onclick="closepoopup()" id="btn">Ok</button></span>
+    </div>
+
+    <div class="ppopup pop" id="ppopup">
+        <center><h4>Ressources en ligne</h4></center>
+        <span><p>Accédez à des outils pratiques pour soutenir votre bien-être au quotidien.</p>
+        <p>Exemples d'activités à faire en ligne:</p>
+        <ol>
+            <li>Articles de Blog Informatifs</li>
+            <li>Guides de Développement Personnel</li>
+            <li>Méditations Guidées</li>
+            <li>Cours en Ligne</li>
+            <li>Outils de Gestion du Stress</li>
+            <li>Questionnaires d'Auto-évaluationd</li>
+        </ol>
+        <button onclick="closeppopup()" id="btn">Ok</button></span>
+    </div>
+
+    <div class="page7">
+        <center><h2>Quelques avis de nos clients</h2></center>
+        <div class="avis">
+            <blockquote>
+                <p>Je ne peux que recommander Wellbeing Coaching ! Travailler avec eux a été transformateur. J'ai appris des stratégies précieuses pour gérer le stress et l'anxiété, et je me sens plus confiante et centrée dans ma vie quotidienne.</p>
+                <p class="nom-avis"> Sarah W</p>
+            </blockquote>
+            <blockquote>
+                <p>Les séances de coaching individuel avec Wellbeing Coaching ont été incroyablement bénéfiques. Ils m'ont aidée à clarifier mes objectifs et m'ont donné des étapes pratiques pour les atteindre. Je me sens plus motivée et positive face à l'avenir.</p>
+                <p class="nom-avis">Emily L</p>
+            </blockquote>
+            <blockquote>
+                <p>Je luttais avec le doute de moi-même depuis des années, mais Wellbeing Coaching m'a aidé à m'en libérer. Ils m'ont enseigné l'importance de la compassion envers moi-même et des soins personnels, ce qui a amélioré mon bien-être global.</p>
+                <p class="nom-avis">Michael P</p>
+            </blockquote>
+            <blockquote>
+                <p>J'ai connu une croissance significative depuis que j'ai commencé le coaching avec Wellbeing Coaching. Ils m'ont fourni des outils pratiques pour gérer le stress lié au travail, et je me sens maintenant plus équilibré et concentré.</p>
+                <p class="nom-avis">Robert G</p>
+            </blockquote>
+            <blockquote>
+                <p>Participer aux webinaires de Wellbeing Coaching a été révélateur. Les sujets étaient pertinents et instructifs, et le format interactif rendait les séances engageantes et agréables.</p>
+                <p class="nom-avis">Sophie K</p>
+            </blockquote>
+            <blockquote>
+                <p>'J'avais des réserves concernant le coaching, mais Wellbeing Coaching m'a mis à l'aise dès le début. Leur véritable bienveillance et leur expertise m'ont aidé à aborder mes défis personnels avec une force renouvelée.</p>
+                <p class="nom-avis">Olivia T</p>
+            </blockquote>
+        </div>
+        <button id="more">
+            <h3>Voir plus</h3>
+            <img src="photos/down-for-more.png">
+        </button>
+    </div>
+
+
+
+    <div class="page8" id="page8">
+        
+        <div class="avis">
+            <blockquote>
+                <p>Participer aux webinaires de Wellbeing Coaching est un moment que j'attends avec impatience chaque semaine. C'est inspirant d'apprendre de coachs expérimentés et de découvrir de nouvelles façons d'améliorer ma vie.</p>
+                <p class="nom-avis"> Antoine G</p>
+            </blockquote>
+            <blockquote>
+                <p>Je recommande vivement Wellbeing Coaching à tous ceux qui cherchent à se sentir plus équilibrés émotionnellement. Leurs approches holistiques ont eu un impact positif sur ma vie dans tous les domaines.</p>
+                <p class="nom-avis">Emma R</p>
+            </blockquote>
+            <blockquote>
+                <p>Je luttais avec le doute de moi-même depuis des années, mais Wellbeing Coaching m'a aidé à m'en libérer. Ils m'ont enseigné l'importance de la compassion envers moi-même et des soins personnels, ce qui a amélioré mon bien-être global.</p>
+                <p class="nom-avis">Nicolas P</p>
+            </blockquote>
+            <blockquote>
+                <p>Wellbeing Coaching a été une lumière dans ma vie lorsque j'étais submergé par le stress. Leur soutien inconditionnel et leurs encouragements m'ont aidé à retrouver mon équilibre émotionnel et à mener une vie plus épanouissante.</p>
+                <p class="nom-avis">Lucas T</p>
+            </blockquote>
+            <blockquote>
+                <p>Participer aux webinaires de Wellbeing Coaching a été révélateur. Les sujets étaient pertinents et instructifs, et le format interactif rendait les séances engageantes et agréables.</p>
+                <p class="nom-avis">Julie C</p>
+            </blockquote>
+            <blockquote>
+                <p>Les ateliers de groupe de Wellbeing Coaching ont été une expérience formidable. J'ai trouvé un soutien et une camaraderie inestimables en partageant mes défis avec d'autres participants. Cela m'a aidé à me sentir moins seul dans mes luttes.</p>
+                <p class="nom-avis">Thomas B</p>
+            </blockquote>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="contenu">
+
+            <div class="service">
+                <h3>Nos services</h3>
+                <ul class="liste-services">
+                    <li><a href="">Coaching individuel</a></li>
+                    <li><a href="">Ateliers de groupe</a></li>
+                    <li><a href="">Ressources en ligne</a></li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h3>Restons en contact</h3>
+                <p>+21695959538</p>
+                <p>mahdisafraoui10@gmail.com</p>
+                <p>15 rue de la lune Montréal, Canada, 2074</p>
+            </div>
+
+            <div class="horaire">
+                <h3>Nos horraires</h3>
+                <ul class="liste-horaires">
+                    <li>
+                        <img src="photos/case-a-cocher.png" class="icon">
+                        <p>Lun 10h-19h</p>
+                    </li>
+                    <li>
+                        <img src="photos/case-a-cocher.png" class="icon">
+                         <p>Mar 10h-19h</p>
+                        </li>
+                    <li> 
+                        <img src="photos/case-a-cocher.png" class="icon">
+                        <p>Mer 10h-19h</p>
+                    </li>
+                    <li>
+                        <img src="photos/case-a-cocher.png" class="icon">
+                        <p>Jeu 8h-16h</p>
+                    </li>
+                    <li>
+                        <img src="photos/case-a-cocher.png" class="icon">
+                        <p>Ven 8h-13h</p>
+                    </li>
+                    <li>
+                        <img src="photos/effacer.png" class="icon">
+                        <p>Sam fermé</p>
+                    </li>
+                    <li>
+                        <img src="photos/effacer.png" class="icon">
+                        <p> Dim fermé</p>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="reseaux">
+                <h3>Nos reseaux sociaux</h3>
+                <ul class="liste-reseaux">
+                    <li class="social fb">
+                        <img src="photos/facebook.png" class="icons">
+                        <a href="https://facebook.com">Facebook</a>
+                        
+                    </li>
+                    <li class="social">
+                        <img src="photos/instagram.png" class="icons">
+                        <a href="https://instagram.com">Instagram</a>
+                    </li>
+                    <li class="social twi">
+                        <img src="photos/twitter.png" class="icons">
+                        <a href="https://twitter.com">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+
+
+</html>

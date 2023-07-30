@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 40);
+
+}
+
+
+h2{
+    color: #49BFAA;
+    font-size: 40px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #49BFAA;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #59e4ca;
+    scale: 1.1;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+    margin-left: 30px;
+}
+
+.compte{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.logo{
+    top: -6%;
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 8%;
+    right: 46%;
+    margin-left: 100px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #181828;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 100px;
+}
+
+.contenu h3{
+    color: #49BFAA;
+}
+
+.icons{
+    width: 40px;
+}
+
+.icon{
+    width: 25px;
+}
+
+footer a:hover{
+    color: #59e4ca;
+    scale: 1.1;
+    font-weight: 700;
+}
+
+footer a, footer li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+footer .contact, footer .horaire, footer .reseaux, footer .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.liste-reseaux .social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.fb{
+    padding-right: 5px;
+}
+
+.twi{
+    padding-right: 25px;
+    
+}
+
+.liste-horaires li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: -8px;
+}
+
+.liste-reseaux li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.liste-services li{
+    margin-bottom: 20px;
+    margin-right: 30px;
+
+}
+
+.liste-horaires li{
+    margin-right: 30px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect{
+    margin-bottom: 10px;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#btn:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.title{
+    width: 100%;
+    height: 98vh;
+}
+
+#titre{
+    font-size: 50px;
+}
+
+#imgtitre{
+    width: 550px;
+}
+
+/* Styles pour le popup principal */
+.popup {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    transform: translate(-35%, -45%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    border: 1px solid;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 35%;
+    transform: translate(-35%, -35%) scale(1);
+}
+
+h2{
+    background-color: #49BFAA;
+    color: white;
+}
+
+
+
+
+
+.page1,.page2,.page3,.page4{
+    width: 100%;
+    height: 98vh;
+
+}
+
+h2,p{
+    margin: 15px;
+}
+span{
+    text-decoration: underline;
+}
+
+.sujets{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sujet1{
+    width: 500px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+#img{
+    width: 100%;
+    height: 60%;
+}
+
+#sous-titre{
+    font-size: 23px;
+}
+#paragraphe{
+    font-size: 10px;
+}
+
+#btn{
+    width: 80px;
+    font-size: 10px;
+    height: 40px;
+    margin-bottom: 20px;
+    
+}

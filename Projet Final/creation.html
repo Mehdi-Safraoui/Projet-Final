@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellbeing</title>
+    <link rel="stylesheet" href="style/stylecompte.css">
+    <link rel="icon" href="/photos/logo.png">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+  <nav>
+      <div class="menu">
+          <a href="#page5">Blog</a>
+          <a href="staff.html">Notre staff</a>
+          <a href="quizz.html" >Quizz de personnalite</a>
+      </div>
+
+      <div>
+          <a href="index.html"><img src="/photos/logo.png" class="logo"></a>
+          
+      </div>
+
+      <div class="compte">
+          <a href="#" onclick="openpopup()" id="connect">Se connecter</a>
+          <a href="creation.html" id="creation">Creer un compte</a>
+      </div>
+
+  </nav>
+
+  
+
+
+    <div id="formulaire" >
+      <form>
+        
+        <label for="nom">Veuillez ecrire votre nom:</label>
+        <input type="text" name="nom" id="nom" required>
+        <label for="prenom">Veuillez ecrire votre prenom:</label>
+        <input type="text" name="prenom" id="prenom" required>
+        <label for="age">Veuillez ecrire votre age:</label>
+        <input type="number" name="age" required>
+        <label for="mail">Veuillez ecrire votre email:</label>
+        <input type="email" name="mail" required>
+        <label for="choix">Veuillez choisir votre psy:</label>
+        <select name="choix" id="choix">
+          <option value="1">John Barkley</option>
+          <option value="2">Stephane Henry</option>
+          <option value="3">Mahrez Saadaoui</option>
+        </select>
+        <label for="lieu">Veuillez choisir le lieu de votre rdv:</label>
+        <select name="lieu" id="lieu">
+          <option value="distance">En ligne</option>
+          <option value="presence">Sur place</option>
+        </select>
+        <label for="date">Veuillez choisir la date du rdv:</label>
+        <input type="date" required>
+        <div id="buttons"><button type="submit" class="buttons">Envoyer</button>
+        <button type="reset" class="buttons">Reset</button></div>
+
+      </form>
+    </div>
+    
+
+
+
+    <footer>
+      <div class="contenu">
+
+          <div class="service">
+              <h3>Nos services</h3>
+              <ul class="liste-services">
+                  <li><a href="">Coaching individuel</a></li>
+                  <li><a href="">Ateliers de groupe</a></li>
+                  <li><a href="">Ressources en ligne</a></li>
+              </ul>
+          </div>
+
+          <div class="contact">
+              <h3>Restons en contact</h3>
+              <p>+21695959538</p>
+              <p>mahdisafraoui10@gmail.com</p>
+              <p>15 rue de la lune Montréal, Canada, 2074</p>
+          </div>
+
+          <div class="horaire">
+              <h3>Nos horraires</h3>
+              <ul class="liste-horaires">
+                  <li>
+                      <img src="photos/case-a-cocher.png" class="icon">
+                      <p>Lun 10h-19h</p>
+                  </li>
+                  <li>
+                      <img src="photos/case-a-cocher.png" class="icon">
+                       <p>Mar 10h-19h</p>
+                      </li>
+                  <li> 
+                      <img src="photos/case-a-cocher.png" class="icon">
+                      <p>Mer 10h-19h</p>
+                  </li>
+                  <li>
+                      <img src="photos/case-a-cocher.png" class="icon">
+                      <p>Jeu 8h-16h</p>
+                  </li>
+                  <li>
+                      <img src="photos/case-a-cocher.png" class="icon">
+                      <p>Ven 8h-13h</p>
+                  </li>
+                  <li>
+                      <img src="photos/effacer.png" class="icon">
+                      <p>Sam fermé</p>
+                  </li>
+                  <li>
+                      <img src="photos/effacer.png" class="icon">
+                      <p> Dim fermé</p>
+                      </li>
+              </ul>
+          </div>
+
+          <div class="reseaux">
+              <h3>Nos reseaux sociaux</h3>
+              <ul class="liste-reseaux">
+                  <li class="social fb">
+                      <img src="photos/facebook.png" class="icons">
+                      <a href="https://facebook.com">Facebook</a>
+                      
+                  </li>
+                  <li class="social">
+                      <img src="photos/instagram.png" class="icons">
+                      <a href="https://instagram.com">Instagram</a>
+                  </li>
+                  <li class="social twi">
+                      <img src="photos/twitter.png" class="icons">
+                      <a href="https://twitter.com">Twitter</a>
+                  </li>
+              </ul>
+          </div>
+
+      </div>
+  </footer>
+
+</body>
+</html>

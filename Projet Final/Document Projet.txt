@@ -1,0 +1,20 @@
+*Description du Projet:
+Le site est à propos du "WellBeeing", c'est un site pour le coaching qui s'interesse à la santé mental des gens
+
+*Son Objectif:
+Aider des gens mentalement et avoir des potentiels clients
+
+*Les pages web:
+- l'index (page d'acceuil)
+- Les infos sur notre local
+- Les conseils gratuits 
+- nos psycologues
+- Login
+- Creer votre compte
+
+*L'Aspect Dynamique:
+-Une fenetre popup va s'afficher à l'utilisateur quand il souhaitera login
+-Forumulaire : L'individu peut choisir le psycologue et lui écrire son probléme 
+-Peut étre un quiz pour connaitre sa personnalité
+
+((les pages web + aspect dynamique ça peut changer))
